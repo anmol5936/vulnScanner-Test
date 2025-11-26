@@ -1,6 +1,5 @@
 import os
 from flask import Flask, request
-import torch
 app = Flask(__name__)
 
 # curl -X GET "http://localhost:5000/tainted7/touch%20HELLO"
